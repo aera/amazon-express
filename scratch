@@ -1,1 +1,5 @@
 sequelize model:create --name Product --attributes title:string,description:text,price:double
+
+linux users, you can use your sudo capabilites to change passwords for psql...
+sudo -u postgres psql
+ALTER USER ritesh PASSWORD 'newpassword';

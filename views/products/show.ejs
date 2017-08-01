@@ -1,0 +1,10 @@
+<%- include('../partials/header') %>
+
+<h1><%= product.title %></h1>
+
+<h4><%= product.description %></h4>
+<h4>$<%= product.price.toFixed(2) %></h4>
+<p><strong>Created At:</strong> <%= product.createdAt %></p>
+<p><strong>Updated At:</strong> <%= product.updatedAt %></p>
+
+<%- include('../partials/footer') %>
