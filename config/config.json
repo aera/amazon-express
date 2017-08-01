@@ -1,0 +1,20 @@
+{
+  "development": {
+    "username": "allain",
+    "password": "12345",
+    "database": "amz_dev",
+    "dialect": "postgres"
+  },
+  "test": {
+    "username": "allain",
+    "password": null,
+    "database": "amz_test",
+    "dialect": "postgres"
+  },
+  "production": {
+    "username": "allain",
+    "password": null,
+    "database": "amz_prod",
+    "dialect": "postgres"
+  }
+}
